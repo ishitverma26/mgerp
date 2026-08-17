@@ -1,0 +1,4 @@
+<Files "create-admin.php">
+    Require all granted
+</Files>
+Require all denied

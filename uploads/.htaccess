@@ -1,0 +1,4 @@
+# Allow the slip images to be viewed, but never executed as PHP
+<FilesMatch "\.(php|phtml|php\d)$">
+  Require all denied
+</FilesMatch>

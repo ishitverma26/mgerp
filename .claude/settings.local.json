@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(& \"C:\\\\xampp\\\\php\\\\php.exe\" \"C:\\\\Users\\\\ishit\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--xampp-htdocs-cement-erp\\\\aa77e7f6-f367-4497-916b-c7f7bb28ed68\\\\scratchpad\\\\test-autocreate.php\")",
+      "PowerShell(& \"C:\\\\xampp\\\\php\\\\php.exe\" -l \"c:\\\\xampp\\\\htdocs\\\\cement-erp\\\\modules\\\\packing\\\\packing-update.php\")",
+      "PowerShell(& \"C:\\\\xampp\\\\php\\\\php.exe\" -l \"c:\\\\xampp\\\\htdocs\\\\cement-erp\\\\includes\\\\functions.php\")",
+      "PowerShell($content = Get-Content -Raw 'c:\\\\xampp\\\\htdocs\\\\cement-erp\\\\assets\\\\css\\\\style.css'; $open = \\([regex]::Matches\\($content, '\\\\{'\\)\\).Count; $close = \\([regex]::Matches\\($content, '\\\\}'\\)\\).Count; \"CSS braces -> Open: $open  Close: $close\")",
+      "PowerShell(& \"C:\\\\xampp\\\\mysql\\\\bin\\\\mysql.exe\" -u root cement_erp)"
+    ]
+  }
+}

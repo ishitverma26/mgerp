@@ -1,0 +1,22 @@
+Illustrations in this folder are from unDraw (https://undraw.co), licensed
+free for commercial and personal use with no attribution required
+(https://undraw.co/license). Downloaded via the MIT-licensed mirror at
+https://github.com/balazser/undraw-svg-collection so exact source SVGs
+could be embedded locally (this app runs without internet access on the
+plant floor, so all assets are local files, not remote-loaded).
+
+Files used:
+- checklist.svg    - Tasks
+- factory.svg      - New Production Batch
+- report.svg       - Audit Log
+- processing.svg   - New Processing
+- delivery.svg     - Packing Update
+- maintenance.svg  - Utilities (Plant Head dashboard Quick Actions)
+
+team-hardhat.svg (Labour Attendance) is NOT from unDraw - it's hand-drawn
+from scratch for this app, since the requested reference image was a
+watermarked Dreamstime stock photo that couldn't legally be used.
+
+Each SVG's accent parts use `var(--primary-svg-color)`, set per Quick
+Action tile colour in assets/css/style.css (.action-tile-amber etc.) -
+see includes/functions.php's tabIllustration() for how they're inlined.

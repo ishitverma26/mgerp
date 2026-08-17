@@ -1,0 +1,24 @@
+<svg viewBox="0 0 400 340" xmlns="http://www.w3.org/2000/svg" fill="var(--primary-svg-color)">
+  <!-- left worker -->
+  <path d="M20 305c0-47 29-86 65-86s65 39 65 86z"/>
+  <circle cx="85" cy="175" r="32"/>
+  <rect x="78" y="140" width="14" height="12" rx="3"/>
+  <ellipse cx="85" cy="140" rx="38" ry="24"/>
+  <rect x="47" y="140" width="76" height="8" rx="4"/>
+
+  <!-- centre worker (taller, in front) -->
+  <path d="M115 320c0-58 38-107 85-107s85 49 85 107z"/>
+  <circle cx="200" cy="180" r="40"/>
+  <rect x="191" y="138" width="18" height="15" rx="4"/>
+  <ellipse cx="200" cy="138" rx="47" ry="30"/>
+  <rect x="153" y="138" width="94" height="10" rx="5"/>
+
+  <!-- right worker, with hair showing under the hat -->
+  <path d="M281 195c-6 22-4 45 6 60" stroke="var(--primary-svg-color)" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M349 195c6 22 4 45-6 60" stroke="var(--primary-svg-color)" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M250 305c0-47 29-86 65-86s65 39 65 86z"/>
+  <circle cx="315" cy="175" r="32"/>
+  <rect x="308" y="140" width="14" height="12" rx="3"/>
+  <ellipse cx="315" cy="140" rx="38" ry="24"/>
+  <rect x="277" y="140" width="76" height="8" rx="4"/>
+</svg>
