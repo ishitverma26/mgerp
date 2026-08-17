@@ -7,7 +7,7 @@
 date_default_timezone_set('Asia/Kolkata');
 
 // Database credentials
-define('DB_HOST', getenv('MYSQLHOST') ?: 'localhost');
+define('DB_HOST', getenv('MYSQLHOST') ?: 'mysql.railway.internal');
 define('DB_NAME', getenv('MYSQLDATABASE') ?: 'cement_erp');
 define('DB_USER', getenv('MYSQLUSER') ?: 'root');
 define('DB_PASS', getenv('MYSQLPASSWORD') ?: 'TVMySJKfcvAYnjdBHysYPrYqbqlKlGfe');
