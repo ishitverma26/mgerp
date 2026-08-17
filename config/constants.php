@@ -7,10 +7,10 @@
 date_default_timezone_set('Asia/Kolkata');
 
 // Database credentials
-define('DB_HOST', getenv('MYSQLHOST') ?: 'mysql.railway.internal');
-define('DB_NAME', getenv('MYSQLDATABASE') ?: 'cement_erp');
+define('DB_HOST', getenv('MYSQLHOST') ?: 'mysql-yyrj.railway.internal');
+define('DB_NAME', getenv('MYSQLDATABASE') ?: 'railway');
 define('DB_USER', getenv('MYSQLUSER') ?: 'root');
-define('DB_PASS', getenv('MYSQLPASSWORD') ?: 'TVMySJKfcvAYnjdBHysYPrYqbqlKlGfe');
+define('DB_PASS', getenv('MYSQLPASSWORD') ?: 'ViTBhVYuEzsaSbNgQkZjzjMsdaxSIHEK');
 define('DB_PORT', getenv('MYSQLPORT') ?: '3306');
 
 // If the project folder sits at htdocs/cement-erp, APP_URL stays as below.
