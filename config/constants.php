@@ -10,7 +10,7 @@ date_default_timezone_set('Asia/Kolkata');
 define('DB_HOST', getenv('MYSQLHOST') ?: 'localhost');
 define('DB_NAME', getenv('MYSQLDATABASE') ?: 'cement_erp');
 define('DB_USER', getenv('MYSQLUSER') ?: 'root');
-define('DB_PASS', getenv('MYSQLPASSWORD') ?: '');
+define('DB_PASS', getenv('MYSQLPASSWORD') ?: 'TVMySJKfcvAYnjdBHysYPrYqbqlKlGfe');
 define('DB_PORT', getenv('MYSQLPORT') ?: '3306');
 
 // If the project folder sits at htdocs/cement-erp, APP_URL stays as below.
