@@ -7,10 +7,11 @@
 date_default_timezone_set('Asia/Kolkata');
 
 // Database credentials
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'cement_erp');
-define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_HOST', getenv('MYSQLHOST') ?: 'localhost');
+define('DB_NAME', getenv('MYSQLDATABASE') ?: 'cement_erp');
+define('DB_USER', getenv('MYSQLUSER') ?: 'root');
+define('DB_PASS', getenv('MYSQLPASSWORD') ?: '');
+define('DB_PORT', getenv('MYSQLPORT') ?: '3306');
 
 // If the project folder sits at htdocs/cement-erp, APP_URL stays as below.
 // If you rename the folder, change this to match (no trailing slash).
